@@ -1,10 +1,11 @@
-#news-panel{
-	width: 250px;
-	position: absolute;
-	left: 200%;
+body{
+	margin-bottom: 0%;
 }
 
-
+#news-panel{
+	width: 250px;
+	left: 200%;
+}
 
 #footer {
 height: 60px;
