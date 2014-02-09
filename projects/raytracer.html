@@ -48,6 +48,31 @@
   		<div class="">
   			<h1>Ray Tracing - C++</h1>
   			<hr />
+
+        <span><h3>Background</h3></span>
+        <p>
+          If you're not familiar with ray tracing, there are tons of great research papers out there which will describe the process in great detail, but I will provide a brief overview.  The idea is to model an object (or scene) by utilizing the nature of vision, except in reverse.  Humans see colors as light bounces off of objects in the the world into our eyes, or a camera.  Ray tracing an image is the process of sending rays from the camera into the world to see what they would have hit and create a representation of that information.  I am primarily concerned with ray tracing scenes and creating images at this point.
+        </p>
+
+        <span><h3>Project Details</h3></span>
+        <p>
+          I started this project for my Advanced Computer Graphics course at Rose, and will continue improving it as I find time.  The ray tracer uses <a href="http://en.wikipedia.org/wiki/Wavefront_.obj_file">obj</a> data to describe a scene, including model geometry and lights, and supports material files for colors and reflections.  Other properties are not yet implemented (such as refraction and glossy reflections), but are left as a possible future extension.  Intersections utilize a bounding volume hierarchy, with spatial splitting, to improve the runtime.  It will create ppm image files of the input scene.
+        </p>
+
+        <span><h3>Source Code</h3></span>
+        <p>
+          The source is available from <a href="https://github.com/dylansturg/ray-tracer">GitHub</a>.  It was designed (and tested) on an Ubuntu 12.04 system, and includes a makefile.  I suspect it could easily be ported to Windows.
+        </p>
+
+        <span><h3>Pictures</h3></span>
+        <span><h4>Millennium Falcon (~860k polygons)</h4></span>
+        <p>Model provided by <a href="http://www.blendswap.com/user/KuhnIndustries">KuhnIndustries</a>, from <a href="http://www.blendswap.com/blends/view/48469">BlendSwap</a></p>
+
+        <span><h4>Dragon (~? polygons)</h4></span>
+
+        <span><h4>Sphere (~? polygons)</h4></span>
+
+
   			<span class="credits left">Also check out my Ray Tracer which uses <a href="opencl-raytracing.html">OpenCL</a></span>
 
   			</p>
