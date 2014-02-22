@@ -10,6 +10,10 @@ body {
 
 /* General & 'Reset' Stuff */
 
+.pika-textnav{
+  left: -2px;
+}
+
 .container {
   width: 90%;
   max-width: 600px;

@@ -10,47 +10,101 @@
 
 	<title>Template Heading</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
 	<link href="../css/styles.css" rel="stylesheet">
 
-	<!-- Custom styles for this template -->
 	<link href="../css/navbar-static-top.css" rel="stylesheet">
 
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
+  <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/pygment_trac.css" media="screen" />
 
-      <script src="../js/jquery-2.1.0.min.js"></script>
-      <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery-2.1.0.min.js"></script>
 
-      <script type="text/javascript">
-      $(function(){
-      	$("#includedNavBar").load("../navbar.html");
-      });
+  <script src="../js/bootstrap.min.js"></script>
 
-      $(function(){
-      	$("#includedFooter").load("../footer.html");
-      })
-      </script>
-    </head>
-
-    <body>
-
-     <div id="includedNavBar"> </div>
+  <link type="text/css" href="../pikachoose/styles/bottom.css" rel="stylesheet" />
+  <script type="text/javascript" src="../pikachoose/lib/jquery.jcarousel.min.js"></script>
+  <script type="text/javascript" src="../pikachoose/lib/jquery.pikachoose.js"></script>
 
 
-     <div class="container">
+  <script type="text/javascript">
+  $(function(){
+   $("#includedNavBar").load("../navbar.html");
+ });
 
-       <h4>Rose-Hulman Degree Planner</h4>
-       <p>
-        During my third-year at Rose, I've been working as part of a large-scale, year long software development project, using agile methodologies, as best as possible when applied to an academic schedule.  The degree planner helps students create multi-year plans for their studies at Rose-Hulman.  The plans include classes the students want to take.  Students can request various operations on their plans, including: populating a default plan (as defined by the school), evaluating what classes they still need to graduate, and determine the validity of the plan by verifying prerequisites are fulfilled.
-      </p>
+  $(function (){
+    $("#imgcarousel").PikaChoose({
+      carousel:true,
+      transition:[0],
+      carouselOptions:{wrap:'circular'},
+      autoPlay:false
+    });
+  });
 
-    </div> <!-- /container -->
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <div id="includedNavBar"></div>
+
+    <div class="container">
+      <h1>degree planner</h1>
+      <h2>Project for Rose-Hulman Junior Sequence</h2>
+
+    </div>
+  </div>
+</div>
+</header>
 
 
-  </body>
-  </html>
+<div class="container">
+
+ <h3>Project Description</h3>
+ <p>
+  During my third-year at Rose, I've been working as part of a large-scale, year long software development project, using agile methodologies, as best as possible when applied to an academic schedule.  The degree planner helps students create multi-year plans for their studies at Rose-Hulman.  The plans include classes the students want to take.  Students can request various operations on their plans, including: populating a default plan (as defined by the school), evaluating what classes they still need to graduate, and determine the validity of the plan by verifying prerequisites are fulfilled.
+</p>
+
+<p>
+  The project is spread across three terms (Rose uses a three term academic year) for a group of approximately 20 students, divided into teams of three to five.  The first term involved requirements gathering from clients.  Our clients were two professors in the Computer Science and Software Engineering (CSSE) department at Rose.  The second term was focused on developing the system in iterations using scrum.  The final term will finalize development and provide a simulation of working with legacy code, including refactoring and improving the code base.
+</p>
+
+<br />
+
+<h3>Team User Interface</h3>
+<p>
+  I am a member of the user interface team; the team charged with developing all user facing portions of the system.  We are developing a web application using ASP.NET that uses RESTful services developed by the other teams to interact with the system.
+</p>
+
+<p>
+  We learned about object oriented design and analysis and applied the principles to the project during design and development.  We utilized object oriented design patterns and principles to improve the system as we developed it.  Some of the applied patterns include: adapters, factories, commands, states, and many others.  Unfortunately, as the project as for real clients, I am not at liberty to share detailed information regarding the system's design and implementation.
+</p>
+
+<br />
+
+<h3>Degree Planning</h3>
+
+<center>
+
+  <ul id="imgcarousel" class="jcarousel-skin-pika">
+
+    <li class="no-arrows"><a href="../images/degreeplanner/degreeplan.png"><img src="../images/degreeplanner/degreeplan.png"></a><span>A potential degree plan.</span></li>
+
+    <li class="no-arrows"><a href="../images/degreeplanner/dragnderp.png"><img src="../images/degreeplanner/dragnderp.png"></a><span>The planner features a drag and drop interface.</span></li>
+
+    <li class="no-arrows"><a href="../images/degreeplanner/searchresults.png"><img src="../images/degreeplanner/searchresults.png"></a><span>Users can search the school's course catalog.</span></li>
+
+    <li class="no-arrows"><a href="../images/degreeplanner/credentialmodal.png"><img src="../images/degreeplanner/credentialmodal.png"></a><span>The website uses modals to request user interaction.</span></li>
+
+    <li class="no-arrows"><a href="../images/degreeplanner/invalidclasses.png"><img src="../images/degreeplanner/invalidclasses.png"></a><span>Classes placed without their prerequisites turn red.</span></li>
+  </ul>
+
+</center>
+
+</div> <!-- /container -->
+
+
+</body>
+</html>
