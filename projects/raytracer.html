@@ -10,83 +10,84 @@
 
 	<title>Ray Tracing in C++</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/styles.css" rel="stylesheet">
+ <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- Custom styles for this template -->
-	<link href="../css/navbar-static-top.css" rel="stylesheet">
+ <link href="../css/styles.css" rel="stylesheet">
 
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
+ <link href="../css/navbar-static-top.css" rel="stylesheet">
 
-      <script src="../js/jquery-2.1.0.min.js"></script>
-      <script src="../js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen" />
+ <link rel="stylesheet" type="text/css" href="../stylesheets/pygment_trac.css" media="screen" />
 
-      <script type="text/javascript">
-      $(function(){
-      	$("#includedNavBar").load("../navbar.html");
-      });
+ <script src="../js/jquery-2.1.0.min.js"></script>
 
-      $(function(){
-      	$("#includedFooter").load("../footer.html");
-      })
-      </script>
-  </head>
+ <script src="../js/bootstrap.min.js"></script>
 
-  <body>
-
-  	<div id="includedNavBar"> </div>
+ <link type="text/css" href="../pikachoose/styles/bottom.css" rel="stylesheet" />
+ <script type="text/javascript" src="../pikachoose/lib/jquery.jcarousel.min.js"></script>
+ <script type="text/javascript" src="../pikachoose/lib/jquery.pikachoose.js"></script>
 
 
-  	<div class="container">
+ <script type="text/javascript">
+ $(function(){
+   $("#includedNavBar").load("../navbar.html");
+ });
 
-  		<!-- Main component for a primary marketing message or call to action -->
-  		<div class="">
-  			<h1>Ray Tracing - C++</h1>
-  			<hr />
+ </script>
+</head>
 
-        <span><h3>Background</h3></span>
-        <p>
-          If you're not familiar with ray tracing, there are tons of great research papers out there which will describe the process in great detail, but I will provide a brief overview.  The idea is to model an object (or scene) by utilizing the nature of vision, except in reverse.  Humans see colors as light bounces off of objects in the the world into our eyes, or a camera.  Ray tracing an image is the process of sending rays from the camera into the world to see what they would have hit and create a representation of that information.  I am primarily concerned with ray tracing scenes and creating images at this point.
-        </p>
+<body>
 
-        <span><h3>Project Details</h3></span>
-        <p>
-          I started this project for my Advanced Computer Graphics course at Rose, and will continue improving it as I find time.  The ray tracer uses <a href="http://en.wikipedia.org/wiki/Wavefront_.obj_file">obj</a> data to describe a scene, including model geometry and lights, and supports material files for colors and reflections.  Other properties are not yet implemented (such as refraction and glossy reflections), but are left as a possible future extension.  Intersections utilize a bounding volume hierarchy, with spatial splitting, to improve the runtime.  It will create ppm image files of the input scene.
-        </p>
+ <header>
+  <div id="includedNavBar"></div>
 
-        <span><h3>Source Code</h3></span>
-        <p>
-          The source is available from <a href="https://github.com/dylansturg/ray-tracer">GitHub</a>.  It was designed (and tested) on an Ubuntu 12.04 system, and includes a makefile.  I suspect it could easily be ported to Windows.
-        </p>
+  <div class="container">
+    <h1>degree planner</h1>
+    <h2>Project for Rose-Hulman Junior Sequence</h2>
 
-        <span><h3>Pictures</h3></span>
-        <span><h4>Millennium Falcon (~860k polygons)</h4></span>
-        <p>Model provided by <a href="http://www.blendswap.com/user/KuhnIndustries">KuhnIndustries</a>, from <a href="http://www.blendswap.com/blends/view/48469">BlendSwap</a></p>
-        <div class="thumbnail">
-        <a href="falcon.jpg" class="">
-          <img height="200" width="200" src="falcon.jpg" data-src="holder.js/200x200" alt="..."/>
-        </a>
-      </div>
+  </div>
+</div>
+</div>
+</header>
 
-        <span><h4>Dragon (~? polygons)</h4></span>
-
-        <span><h4>Sphere (~? polygons)</h4></span>
+<div class="container">
 
 
-  			<span class="credits left">Also check out my Ray Tracer which uses <a href="opencl-raytracing.html">OpenCL</a></span>
+ <span><h3>Background</h3></span>
+ <p>
+  If you're not familiar with ray tracing, there are tons of great research papers out there which will describe the process in great detail, but I will provide a brief overview.  The idea is to model an object (or scene) by utilizing the nature of vision, except in reverse.  Humans see colors as light bounces off of objects in the the world into our eyes, or a camera.  Ray tracing an image is the process of sending rays from the camera into the world to see what they would have hit and create a representation of that information.  I am primarily concerned with ray tracing scenes and creating images at this point.
+</p>
 
-  			</p>
-  		</div>
+<span><h3>Project Details</h3></span>
+<p>
+  I started this project for my Advanced Computer Graphics course at Rose, and will continue improving it as I find time.  The ray tracer uses <a href="http://en.wikipedia.org/wiki/Wavefront_.obj_file">obj</a> data to describe a scene, including model geometry and lights, and supports material files for colors and reflections.  Other properties are not yet implemented (such as refraction and glossy reflections), but are left as a possible future extension.  Intersections utilize a bounding volume hierarchy, with spatial splitting, to improve the runtime.  It will create ppm image files of the input scene.
+</p>
 
-  	</div> <!-- /container -->
+<span><h3>Source Code</h3></span>
+<p>
+  The source is available from <a href="https://github.com/dylansturg/ray-tracer">GitHub</a>.  It was designed (and tested) on an Ubuntu 12.04 system, and includes a makefile.  I suspect it could easily be ported to Windows.
+</p>
 
-  	<div id="includedFooter">
-  	</div>
+<span><h3>Pictures</h3></span>
+<span><h4>Millennium Falcon (~860k polygons)</h4></span>
+<p>Model provided by <a href="http://www.blendswap.com/user/KuhnIndustries">KuhnIndustries</a>, from <a href="http://www.blendswap.com/blends/view/48469">BlendSwap</a></p>
+<div class="thumbnail">
+  <a href="falcon.jpg" class="">
+    <img height="200" width="200" src="falcon.jpg" data-src="holder.js/200x200" alt="..."/>
+  </a>
+</div>
 
-  </body>
-  </html>
+<span><h4>Dragon (~? polygons)</h4></span>
+
+<span><h4>Sphere (~? polygons)</h4></span>
+
+
+<span class="credits left">Also check out my Ray Tracer which uses <a href="opencl-raytracing.html">OpenCL</a></span>
+
+</p>
+</div>
+
+
+
+</body>
+</html>
