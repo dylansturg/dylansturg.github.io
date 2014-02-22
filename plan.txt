@@ -1,0 +1,15 @@
+Home
+	Self
+	Recent Work
+		Ray tracing/OpenCL
+	Interests
+		Computer graphics
+		Mobile applications
+		Game development
+		Web Development
+
+Projects
+	Degree Planner
+	Gasket
+	Ray Tracer + OpenCL
+
