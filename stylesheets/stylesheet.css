@@ -249,3 +249,11 @@ a {
 .cf {
   zoom:1;
 }
+
+.dropdown-menu{
+  background: #080808;
+}
+
+.dropdown-menu > li > a{
+  color: #b5e853;
+}
