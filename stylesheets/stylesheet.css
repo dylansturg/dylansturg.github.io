@@ -227,10 +227,16 @@ hr {
 }
 
 .git-icon{
-  background: url("/images/blacktocat.png") 0 0 no-repeat;
+  display: inline-block;
+  width:32px;
+  height:32px;
+  background: url("../images/GitHub-Mark-Light-32px.png") 0 0 no-repeat;
 }
 
 .glyphicon-linkedin{
+  display: inline-block;
+  width: 44px;
+  height: 36px;
   background: url("http://dylansturg.github.io/images/linkedin.png");
 }
 

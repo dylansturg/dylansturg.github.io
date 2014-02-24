@@ -2,6 +2,12 @@ body{
 	margin-bottom: 0%;
 }
 
+.logo-icon{
+	background: url("../images/logo.png") 0 0 no-repeat;
+	width:100px;
+	height: 70px;
+}
+
 #news-panel{
 	width: 250px;
 	left: 200%;
@@ -26,4 +32,14 @@ bottom: 0px;
 
 #footer a{
 color:white;
+}
+
+#heading{
+	position: relative;	
+	left: 150px;
+	height:70px;
+}
+
+#logo{
+	position: absolute;
 }

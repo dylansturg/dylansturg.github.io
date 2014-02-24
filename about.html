@@ -20,6 +20,10 @@
    $("#includedNavBar").load("navbar.html");
  });
 
+  $(function(){
+    $("#includedFooter").load("footer.html");
+  });
+
   </script>
 
   <title>dylansturg</title>
@@ -31,8 +35,13 @@
     <div id="includedNavBar"></div>
 
     <div class="container">
-      <h1>dylansturg</h1>
-      <h2>Application and Web Developer</h2>
+      <div id="logo">
+        <div class="logo-icon"></div>
+      </div>
+      <div id="heading">
+        <h1>dylansturg</h1>
+        <h2>Application and Web Developer</h2>
+      </div>
 
     </div>
   </div>
@@ -94,6 +103,7 @@
     </section>
   </div>
 
+  <div id="includedFooter"></div>
 
 </body>
 </html>

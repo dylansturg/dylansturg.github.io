@@ -33,6 +33,10 @@
    $("#includedNavBar").load("../navbar.html");
  });
 
+    $(function(){
+    $("#includedFooter").load("../footer.html");
+  });
+
   $(function (){
     $("#imgcarousel").PikaChoose({
       carousel:true,
@@ -51,8 +55,13 @@
     <div id="includedNavBar"></div>
 
     <div class="container">
-      <h1>degree planner</h1>
-      <h2>Project for Rose-Hulman Junior Sequence</h2>
+            <div id="logo">
+        <div class="logo-icon"></div>
+      </div>
+      <div id="heading">
+        <h1>degree planner</h1>
+        <h2>Project for Rose-Hulman Junior Sequence</h2>
+      </div>
 
     </div>
   </div>
@@ -107,6 +116,7 @@
 </section>
 </div> <!-- /container -->
 
+<div id="includedFooter"></div>
 
 </body>
 </html>
