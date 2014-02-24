@@ -226,6 +226,14 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
+.git-icon{
+  background: url("/images/blacktocat.png") 0 0 no-repeat;
+}
+
+.glyphicon-linkedin{
+  background: url("http://dylansturg.github.io/images/linkedin.png");
+}
+
 /* Links
    a, a:hover, a:visited
 */

@@ -1,7 +1,23 @@
 <div id="footer">
 	<div class="container">
 		<div class="footer-text">
-			<span class="credits"><h5>Project Maintained By: <a href="http://github.com/dylansturg">dylansturg</a></h5></span>
+			<a href="mailto:dylansturg@gmail.com">
+				<span class="glyphicon glyphicon-envelope"></span>
+				dylansturg@gmail.com
+			</a>
+
+			<span class="glyphicon glyphicon-linkedin"></span>
+		</div>
+
+		<div id="footer-copyright">
+			&copy; <span id="copyright-year"></span> Dylan Sturgeon
 		</div>
 	</div>
 </div>
+
+<script>
+$(function(){
+	$("#copyright-year")[0].textContent = new Date().getFullYear();
+});
+
+</script>

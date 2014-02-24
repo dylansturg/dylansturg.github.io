@@ -8,14 +8,22 @@ body{
 }
 
 #footer {
-height: 60px;
-background-color: #d0d0d0;
+height: 100px;
+background-color: #101010;
 width: 100%;
-position: fixed;
 bottom: 0px;
+}
+
+#footer-copyright{
+	width: 100%;
 }
 
 .footer-text{
 	margin-top: 15px;
+	height:60px;
 	display: inline-block;
+}
+
+#footer a{
+color:white;
 }
