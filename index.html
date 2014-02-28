@@ -32,6 +32,16 @@
     $("#includedFooter").load("footer.html") 
   });
 
+  var currentLoaded = [null, null];
+
+  function loadContent(targ, content, callback)
+  {
+    if(currentLoaded[0] == targ && currentLoaded[1] == content){
+      return; // already there, no point in spamming
+    }
+    $(targ).load(content, callback);
+  }
+
   </script>
 
   <title>dylansturg</title>
@@ -53,31 +63,35 @@
         <br />
         <h3>Development</h3>
 
-        <div class="panel panel-success">
-
+        <div class="panel panel-default maskable inv-panel">
           <div class="panel-heading">
-            <h4 class="panel-title">Recent Languages</h4>
+            <h4 class="panel-title">Recent Projects</h4>
           </div>
 
           <div class="panel-body">
             <div class="progress">
-              <div class="progress-bar progress-bar-cpp" style="width: 40%">
+              <div class="progress-bar progress-bar-cpp cpp-projects" style="width: 40%" onclick="loadContent('#language-projects', 'cpp.html')">
                 <span class="">C++</span>
               </div>
-              <div class="progress-bar progress-bar-cs" style="width: 24%">
+              <div class="progress-bar progress-bar-cs" style="width: 24%" onclick="loadContent('#language-projects', 'csharp.html')">
                 <span class="">C#</span>
               </div>
-              <div class="progress-bar progress-bar-js" style="width: 15%">
+              <div class="progress-bar progress-bar-js" style="width: 15%" onclick="loadContent('#language-projects', 'weblanguages.html')"> 
                 <span class="">JavaScript</span>
               </div>
-              <div class="progress-bar progress-bar-html" style="width: 15%">
+              <div class="progress-bar progress-bar-html" style="width: 15%" onclick="loadContent('#language-projects', 'weblanguages.html')">
                 <span class="">HTML</span>
               </div>
 
-              <div class="progress-bar progress-bar-c" style="width: 5%">
+              <div class="progress-bar progress-bar-c" style="width: 5%" onclick="loadContent('#language-projects', 'c.html')">
                 <span class="">C</span>
               </div>
             </div>
+
+            <div id="language-projects">
+
+            </div>
+
           </div>
         </div>
 

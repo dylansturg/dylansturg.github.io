@@ -42,3 +42,39 @@ color:white;
 #logo{
 	position: absolute;
 }
+
+.cpp-projects:hover{
+
+}
+
+.invis{
+	visibility: hidden;
+}
+
+.maskable{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+
+.maskable .mask{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#language-projects{
+	color: black;
+}
+
+.inv-panel{
+
+}
+
+.rel5{
+	position: relative;
+	top: -5px;
+}
