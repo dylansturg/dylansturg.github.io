@@ -17,7 +17,11 @@
 
   <script type="text/javascript">
   $(function(){
-   $("#includedNavBar").load("navbar.html");
+   $("#includedNavBar").load("navbar.html",
+    function(response, status){
+      $("#page-header").text("dylansturg");
+      $("#page-subheader").text("Application and Web Developer");
+    });
  });
 
   $(function(){
@@ -35,33 +39,47 @@
 
 <body>
 
-  <header>
-    <div id="includedNavBar"></div>
+  <div id="includedNavBar"></div>
 
-    <div class="container">
-      <div id="logo">
-        <div class="logo-icon"></div>
-      </div>
-      <div id="heading">
-        <h1>dylansturg</h1>
-        <h2>Application and Web Developer</h2>
-      </div>
+  <div class="container">
+    <section id="main_content">
+      <h3>
+        <a name="dylan-sturgeon" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Dylan Sturgeon</h3>
 
-    </div>
-  </div>
-</div>
-</header>
+        <p>
+          I'm a developing software engineer, and third-year undergraduate student at <a href="http://rose-hulman.edu">Rose-Hulman Institute of Technology</a>.  My course projects have given me an opportunity to work in full stack web development, computer graphics, computer applications, project management, and many other areas.  I love building cool stuff and talking about software.  If you want to hire me, chat about a project, or need some motivational quotes, <a href="mailto:dylansturg@gmail.com">drop me a line</a>.
+        </p>
 
-<div class="container">
-  <section id="main_content">
-    <h3>
-      <a name="dylan-sturgeon" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Dylan Sturgeon</h3>
+        <br />
+        <h3>Development</h3>
 
-      <p>
-        I'm an aspiring software engineer, and third-year undergraduate student at <a href="http://rose-hulman.edu">Rose-Hulman Institute of Technology</a>.  My course projects have given me an opportunity to work in full stack web development, computer graphics, computer applications, project management, and many other areas.
-      </p>
+        <div class="panel panel-success">
 
-      <div class="index-">
+          <div class="panel-heading">
+            <h4 class="panel-title">Recent Languages</h4>
+          </div>
+
+          <div class="panel-body">
+            <div class="progress">
+              <div class="progress-bar progress-bar-cpp" style="width: 40%">
+                <span class="">C++</span>
+              </div>
+              <div class="progress-bar progress-bar-cs" style="width: 24%">
+                <span class="">C#</span>
+              </div>
+              <div class="progress-bar progress-bar-js" style="width: 15%">
+                <span class="">JavaScript</span>
+              </div>
+              <div class="progress-bar progress-bar-html" style="width: 15%">
+                <span class="">HTML</span>
+              </div>
+
+              <div class="progress-bar progress-bar-c" style="width: 5%">
+                <span class="">C</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
 

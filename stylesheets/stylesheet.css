@@ -10,6 +10,35 @@ body {
   margin-bottom: 100px;
 }
 
+.progress-bar-cpp {
+  background-color: #f34b7d;
+}
+
+.progress-bar-js {
+  background-color: #f15501;
+}
+
+.progress-bar-c {
+  background-color: #555;
+}
+
+.progress-bar-css {
+  background-color: #1f085e;
+}
+
+.progress-bar-cs {
+  background-color: #5a25a2;
+}
+
+.progress-bar-html {
+  background-color: #6a40fd;
+}
+
+.progress-bar-java {
+  background-color: #b07219;
+}
+
+
 /* General & 'Reset' Stuff */
 
 .pika-textnav{

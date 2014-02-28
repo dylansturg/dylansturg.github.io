@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="dslogo.svg"
+   inkscape:export-filename="E:\Git\gitpages\dslogo.png"
+   inkscape:export-xdpi="17.578125"
+   inkscape:export-ydpi="17.578125">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5287">
+      <stop
+         style="stop-color:#373739;stop-opacity:1;"
+         offset="0"
+         id="stop5289" />
+      <stop
+         id="stop5295"
+         offset="0.46729711"
+         style="stop-color:#a0a0a0;stop-opacity:1;" />
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:1;"
+         offset="1"
+         id="stop5291" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5273"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#fbd5d6;stop-opacity:1;"
+         offset="0"
+         id="stop5275" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3827">
+      <stop
+         id="stop3831"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.16071428;"
+         offset="1"
+         id="stop3833" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3801">
+      <stop
+         id="stop3805"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.58039216;"
+         offset="0.5"
+         id="stop3825" />
+      <stop
+         id="stop3807"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0.16071428;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3769">
+      <stop
+         id="stop3793"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:0.49803922;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.37254902;"
+         offset="0.25"
+         id="stop3799" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.24705882;"
+         offset="0.5"
+         id="stop3797" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3773" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5287"
+       id="linearGradient5293"
+       x1="32.999371"
+       y1="199.06664"
+       x2="136.46048"
+       y2="176.87993"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5287"
+       id="linearGradient5313"
+       gradientUnits="userSpaceOnUse"
+       x1="32.999371"
+       y1="199.06664"
+       x2="136.46048"
+       y2="176.87993" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5287"
+       id="linearGradient5315"
+       gradientUnits="userSpaceOnUse"
+       x1="32.999371"
+       y1="199.06664"
+       x2="136.46048"
+       y2="176.87993" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5287"
+       id="linearGradient5317"
+       gradientUnits="userSpaceOnUse"
+       x1="32.999371"
+       y1="199.06664"
+       x2="136.46048"
+       y2="176.87993" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5287"
+       id="linearGradient5319"
+       gradientUnits="userSpaceOnUse"
+       x1="32.999371"
+       y1="199.06664"
+       x2="136.46048"
+       y2="176.87993" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="179"
+     inkscape:cy="240"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1235"
+     inkscape:window-height="798"
+     inkscape:window-x="-20"
+     inkscape:window-y="164"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36218)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2985"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       transform="matrix(3.7684013,0,0,3.5415221,-79.2466,473.92136)"><flowRegion
+         id="flowRegion2987"><rect
+           id="rect2989"
+           width="455"
+           height="141"
+           x="19"
+           y="12"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu" /></flowRegion><flowPara
+         id="flowPara2991"
+         style="fill:#000000">dylan</flowPara></flowRoot>    <flowRoot
+       transform="matrix(3.7684013,0,0,3.5415221,-79.2466,473.92136)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       id="flowRoot5297"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5299"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           y="12"
+           x="19"
+           height="141"
+           width="455"
+           id="rect5301" /></flowRegion><flowPara
+         style="fill:#000000"
+         id="flowPara5303">dylan</flowPara></flowRoot>    <flowRoot
+       transform="matrix(3.9060931,0,0,5.6614121,-88.768869,-305.50789)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient5319);fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       id="flowRoot5305"
+       xml:space="preserve"><flowRegion
+         style="fill:url(#linearGradient5315);fill-opacity:1"
+         id="flowRegion5307"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient5313);fill-opacity:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           y="164"
+           x="22"
+           height="181"
+           width="487"
+           id="rect5309" /></flowRegion><flowPara
+         style="fill:url(#linearGradient5317);fill-opacity:1"
+         id="flowPara5311">STURG</flowPara></flowRoot>  </g>
+</svg>
