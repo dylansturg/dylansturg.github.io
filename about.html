@@ -17,7 +17,11 @@
 
   <script type="text/javascript">
   $(function(){
-   $("#includedNavBar").load("navbar.html");
+   $("#includedNavBar").load("navbar.html",
+    function(response, status){
+      $("#page-header").text("dylansturg");
+      $("#page-subheader").text("Application and Web Developer");
+    });
  });
 
   $(function(){
@@ -30,80 +34,65 @@
 </head>
 
 <body>
+  <div id="includedNavBar"></div>
 
-  <header>
-    <div id="includedNavBar"></div>
 
-    <div class="container">
-      <div id="logo">
-        <div class="logo-icon"></div>
-      </div>
-      <div id="heading">
-        <h1>dylansturg</h1>
-        <h2>Application and Web Developer</h2>
-      </div>
+  <div class="container">
+    <section id="main_content">
+      <h3>
+        <a name="dylan-sturgeon" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Dylan Sturgeon</h3>
 
+        <p>
+          I am a third-year undergraduate software engineering student at <a href="http://rose-hulman.edu">Rose-Hulman Institute of Technology</a>.  I have experience with front and back end web development from extensive project work at Rose and my summer internship with Angie's List, last year.  My other project work has been focused on application development, in both Windows and Linux environments.
+        </p>
+
+        <h4>Technical Skills/Experience</h4>
+        <ul id="tech-skills">
+          <li>Object Oriented Analysis and Design</li>
+          <li>Programming Languages: C, C++, C#, Java, Python</li>
+          <li>Relational Databases: MSSQL and MySQL</li>
+          <li>Web Frameworks: ASP.NET and Django</li>
+          <li>OpenGL and OpenCL</li>
+        </ul>
+
+        <br />
+
+        <h3>
+          <a name="recent-work" class="anchor" href="#recent-work"><span class="octicon octicon-link"></span></a>Recent Work
+        </h3>
+
+        <h4><a href="/projects/degreeplanner.html">Rose-Hulman Degree Planner</a></h4>
+        <p>
+          The degree planner is a tool to help students at Rose plan out which classes they will take and when they can take them.  It provides several tools to help determine what classes they still need to take and if the current selection will be feasible.
+        </p>
+
+        <p>
+
+        </p>
+
+        <h4><a href="/projects/raytracer.html">Ray Tracing</a></h4>
+        <p>
+          For my advanced computer graphics class, I created a ray tracer to render scenes from Wavefront OBJ files (with some custom extensions) as an individual project.  The original ray tracer is CPU based and written in C++.  It uses material files for shading with basic functionality (Gouraud shading, shadows, and reflections).
+        </p>
+
+        <p>
+          As a group project for the same class, I implemented the same ray tracing functionality on a GPU using OpenCL.
+        </p>
+
+        <br />
+
+        <h3>
+          <a name="interests" class="anchor" href="#interests"><span class="octicon octicon-link"></span></a>Interests
+        </h3>
+
+        <p>
+          I tend to have more interests than time to pursue them, thanks in part to the rigorous curriculum at Rose.  I am interested in computer graphics applications, especially ray tracing and game development; mobile applications on iOS, Android, and Windows devices; and web development, both front end and back end.
+        </p>
+
+      </section>
     </div>
-  </div>
-</div>
-</header>
 
-<div class="container">
-  <section id="main_content">
-    <h3>
-      <a name="dylan-sturgeon" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Dylan Sturgeon</h3>
+    <div id="includedFooter"></div>
 
-      <p>
-        I am a third-year undergraduate software engineering student at <a href="http://rose-hulman.edu">Rose-Hulman Institute of Technology</a>.  I have experience with front and back end web development from extensive project work at Rose and my summer internship with Angie's List, last year.  My other project work has been focused on application development, in both Windows and Linux environments.
-      </p>
-
-      <h4>Technical Skills/Experience</h4>
-      <ul id="tech-skills">
-        <li>Object Oriented Analysis and Design</li>
-        <li>Programming Languages: C, C++, C#, Java, Python</li>
-        <li>Relational Databases: MSSQL and MySQL</li>
-        <li>Web Frameworks: ASP.NET and Django</li>
-        <li>OpenGL and OpenCL</li>
-      </ul>
-
-      <br />
-
-      <h3>
-        <a name="recent-work" class="anchor" href="#recent-work"><span class="octicon octicon-link"></span></a>Recent Work
-      </h3>
-
-      <h4><a href="/projects/degreeplanner.html">Rose-Hulman Degree Planner</a></h4>
-      <p>
-        The degree planner is a tool to help students at Rose plan out which classes they will take and when they can take them.  It provides several tools to help determine what classes they still need to take and if the current selection will be feasible.
-      </p>
-
-      <p>
-
-      </p>
-
-      <h4><a href="/projects/raytracer.html">Ray Tracing</a></h4>
-      <p>
-        For my advanced computer graphics class, I created a ray tracer to render scenes from Wavefront OBJ files (with some custom extensions) as an individual project.  The original ray tracer is CPU based and written in C++.  It uses material files for shading with basic functionality (Gouraud shading, shadows, and reflections).
-      </p>
-
-      <p>
-        As a group project for the same class, I implemented the same ray tracing functionality on a GPU using OpenCL.
-      </p>
-
-      <br />
-
-      <h3>
-        <a name="interests" class="anchor" href="#interests"><span class="octicon octicon-link"></span></a>Interests
-      </h3>
-
-      <p>
-        I tend to have more interests than time to pursue them, thanks in part to the rigorous curriculum at Rose.  I am interested in computer graphics applications, especially ray tracing and game development; mobile applications on iOS, Android, and Windows devices; and web development, both front end and back end.
-      </p>
-
-    </section>
-  </div>
-
-  <div id="includedFooter"></div>
-
-</body>
-</html>
+  </body>
+  </html>

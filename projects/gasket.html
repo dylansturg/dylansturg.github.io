@@ -17,7 +17,11 @@
 
   <script type="text/javascript">
   $(function(){
-   $("#includedNavBar").load("../navbar.html");
+   $("#includedNavBar").load("../navbar.html",
+    function(response, status){
+      $("#page-header").text("gasket");
+      $("#page-subheader").text("Online Game Rating Application");
+    });
  });
 
   $(function(){
@@ -35,22 +39,7 @@
 
 <body>
 
-  <header>
     <div id="includedNavBar"></div>
-
-    <div class="container">
-      <div id="logo">
-        <div class="logo-icon"></div>
-      </div>
-      <div id="heading">
-        <h1>dylansturg</h1>
-        <h2>Application and Web Developer</h2>
-      </div>
-
-    </div>
-  </div>
-</div>
-</header>
 
 <div class="container">
   <section id="main_content">

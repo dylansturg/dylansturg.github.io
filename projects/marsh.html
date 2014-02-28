@@ -17,7 +17,11 @@
 
   <script type="text/javascript">
   $(function(){
-   $("#includedNavBar").load("../navbar.html");
+   $("#includedNavBar").load("navbar.html",
+    function(response, status){
+      $("#page-header").text("dylansturg");
+      $("#page-subheader").text("Application and Web Developer");
+    });
  });
 
   $(function(){

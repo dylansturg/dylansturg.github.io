@@ -30,7 +30,11 @@
 
   <script type="text/javascript">
   $(function(){
-   $("#includedNavBar").load("../navbar.html");
+   $("#includedNavBar").load("../navbar.html",
+    function(response, status){
+      $("#page-header").text("degree planner");
+      $("#page-subheader").text("Interactive Multi-Year College Degree Plan");
+    });
  });
 
     $(function(){
@@ -50,24 +54,7 @@
 </head>
 
 <body>
-
-  <header>
     <div id="includedNavBar"></div>
-
-    <div class="container">
-            <div id="logo">
-        <div class="logo-icon"></div>
-      </div>
-      <div id="heading">
-        <h1>degree planner</h1>
-        <h2>Project for Rose-Hulman Junior Sequence</h2>
-      </div>
-
-    </div>
-  </div>
-</div>
-</header>
-
 
 <div class="container">
   <section id="main_content">
